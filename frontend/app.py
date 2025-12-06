@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import tempfile
 from PIL import Image
+import sys
 sys.path.append("../backend")
 from ocr import extract_text_from_image, extract_text_from_pdf
 
