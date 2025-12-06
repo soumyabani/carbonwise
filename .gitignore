@@ -1,2 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# Lambda build artifacts
 function.zip
-*.zip
+package/
+*.so
+
+# Streamlit Cloud build directories
+frontend/__pycache__/
+backend/__pycache__/
+
+# OS files
+.DS_Store
+
