@@ -1,7 +1,7 @@
 import requests
 import os
 
-CLOUDFLARE_URL = "https://api.cloudflare.com/client/v4/accounts/<ACCOUNT_ID>/ai/run/@cf/meta/llama-3.1-8b-instruct"
+CLOUDFLARE_URL = "https://api.cloudflare.com/client/v4/accounts/a761eb90bc3234b483b3a10a698b20ab/ai/run/@cf/meta/llama-3.1-8b-instruct"
 API_KEY = os.getenv("CLOUDFLARE_API_KEY")
 
 def extract_fields(text):
