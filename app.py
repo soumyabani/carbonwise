@@ -6,7 +6,7 @@ import sys
 import os
 
 
-from backend.ocr import extract_text_from_image, extract_text_from_pdf
+from ocr import extract_text_from_image, extract_text_from_pdf
 
 API_URL = "https://eux38pbb50.execute-api.us-east-1.amazonaws.com/default"
 
